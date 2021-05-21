@@ -102,9 +102,9 @@
 }
 .price-card__lable {
   position: absolute;
-  background-color: #DC3F45;
-  top: 230px;
-  left: 790px;
+  background-color: #dc3f45;
+  top: -53px;
+  left: 794px;
   width: 146px;
   height: 25px;
   transform: rotate(45deg);

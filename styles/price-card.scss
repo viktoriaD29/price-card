@@ -108,29 +108,28 @@
     border-radius: 20px;
     display: block;
     margin: auto;
-    color:#ffffff;
+    color: #ffffff;
   }
 
- &__lable {
-  position:absolute;
-  background-color: #DC3F45;
-    top:230px;
-    left:790px;
+  &__lable {
+    position: absolute;
+    background-color: #dc3f45;
+    top: -53px;
+    left: 794px;
     width: 146px;
     height: 25px;
     transform: rotate(45deg);
-    z-index:100;
- }
-
+    z-index: 100;
+  }
 }
 
 .lable-text {
-    text-align: center;
-    line-height: 25px;
-    color: #ffffff;
+  text-align: center;
+  line-height: 25px;
+  color: #ffffff;
   font-weight: bold;
   font-size: 14px;
-    display: block;
+  display: block;
 }
 
 h2 {
@@ -191,4 +190,3 @@ h2 {
 .order-btn_green {
   background-color: rgba(91, 177, 137, 1);
 }
-
