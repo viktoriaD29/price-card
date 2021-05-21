@@ -100,19 +100,6 @@
   margin: auto;
   color: #ffffff;
 }
-.price-card__lable {
-  position: absolute;
-  text-align: center;
-  color: #ffffff;
-  transform: rotate(45deg);
-  top: 218px;
-  left: 825px;
-  width: 100px;
-  background-color: #DC3F45;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-}
 
 h2 {
   width: 160px;
