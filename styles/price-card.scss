@@ -23,19 +23,19 @@
   &__title {
     width: 100px;
     height: 64px;
-    color: #ffffff;
     margin: auto;
     margin-bottom: 33px;
+    color: $text-color;
   }
 
   &__title-name {
     display: flex;
     justify-content: center;
+    margin: 0;
+    margin-top: 33px;
     font-size: 35px;
     line-height: 43px;
     font-weight: 700;
-    margin: 0;
-    margin-top: 33px;
   }
 
   &__title-subname {
@@ -71,7 +71,7 @@
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #ffffff;
+    color: $text-color;
   }
 
   &__options-list {
@@ -88,7 +88,7 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #ffffff;
+    color: $text-color;
     text-align: center;
     line-height: 50px;
 
@@ -108,7 +108,7 @@
     border-radius: 20px;
     display: block;
     margin: auto;
-    color: #ffffff;
+    color: $text-color;
   }
 
   &__lable {
@@ -124,12 +124,12 @@
 }
 
 .lable-text {
+  display: block;
   text-align: center;
   line-height: 25px;
-  color: #ffffff;
+  color: $text-color;
   font-weight: bold;
   font-size: 14px;
-  display: block;
 }
 
 h2 {
@@ -139,19 +139,19 @@ h2 {
   font-size: 55px;
   line-height: 67px;
   text-align: center;
-  color: #ffffff;
+  color: $text-color;
 }
 
 .price_green {
-  background-color: #5bb189;
+  background-color: $color-green;
 }
 
 .price_blue {
-  background-color: #3a6ba5;
+  background-color: $color-blue;
 }
 
 .price_orange {
-  background-color: #ec632a;
+  background-color: $color-orange;
 }
 
 .checkmark_green {
@@ -163,8 +163,9 @@ h2 {
 
 .checkmark_blue {
   display: inline-block;
-  background-position: 22px;
+
   background-repeat: no-repeat;
+  background-position: 22px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
 }
 
@@ -176,17 +177,13 @@ h2 {
 }
 
 .order-btn_green {
-  background-color: rgba(91, 177, 137, 1);
+  background-color: $color-green;
 }
 
 .order-btn_blue {
-  background-color: rgba(58, 107, 165, 1);
+  background-color: $color-blue;
 }
 
 .order-btn_orange {
-  background-color: rgba(236, 99, 42, 1);
-}
-
-.order-btn_green {
-  background-color: rgba(91, 177, 137, 1);
+  background-color: $color-orange;
 }
