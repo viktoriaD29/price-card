@@ -5,7 +5,7 @@
   align-items: center;
   width: 1440px;
   background: #141b1c;
-  height: 1000px;
+  height: 100vh;
 }
 
 .price-card {
@@ -99,13 +99,6 @@
   display: block;
   margin: auto;
 }
-.price-card__lable {
-  width: 25px;
-  height: 147px;
-  background: #DC3F45;
-  transform: rotate(-45deg);
-  color: #ffffff;
-}
 
 h2 {
   width: 160px;
@@ -162,14 +155,12 @@ h2 {
   background-color: #ec632a;
 }
 
-* {
-  box-sizing: border-box;
+.order-btn_green {
+  background-color: #5bb189;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
 }
 
 html {

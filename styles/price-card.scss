@@ -4,7 +4,7 @@
   align-items: center;
   width: 1440px;
   background: rgba(20, 27, 28, 1);
-  height: 1000px;
+  height: 100vh;
 }
 
 .price-card {
@@ -72,14 +72,13 @@
     line-height: 18px;
     text-align: center;
     color: #ffffff;
-    
   }
 
   &__options-list {
     width: 380px;
     height: 300px;
     margin-bottom: 39px;
-    padding: 0 ;
+    padding: 0;
   }
 
   &__checkmark {
@@ -109,15 +108,6 @@
     border-radius: 20px;
     display: block;
     margin: auto;
-  }
-
-  &__lable {
-    width: 25px;
-    height: 147px;
-    background: #DC3F45;
-    transform: rotate(-45deg);
-    color: #ffffff;
-    
   }
 }
 
@@ -175,3 +165,8 @@ h2 {
 .order-btn_orange {
   background-color: rgba(236, 99, 42, 1);
 }
+
+.order-btn_green {
+  background-color: rgba(91, 177, 137, 1);
+}
+
