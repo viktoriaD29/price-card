@@ -110,6 +110,15 @@
     display: block;
     margin: auto;
   }
+
+  &__lable {
+    width: 25px;
+    height: 147px;
+    background: #DC3F45;
+    transform: rotate(-45deg);
+    color: #ffffff;
+    
+  }
 }
 
 h2 {
