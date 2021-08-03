@@ -1,5 +1,5 @@
 # price-card
-<a href="https://viktoriad29.github.io/startup-website/"><h2>Site Link:</h2> </a>
+<a href="https://viktoriad29.github.io/price-card/"><h2>Site Link:</h2> </a>
 https://viktoriad29.github.io/startup-website/
 
 <h2>The tech stack is:</h3>
